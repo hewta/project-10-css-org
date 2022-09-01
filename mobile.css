@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1116px) {
+    /* .nav-list {
+      display: none;
+    } */
+    nav{
+        flex-direction: column;
+    }
+    .intro > h1 {
+      font-size: 40px;
+    }
+    .flex {
+      position: static;
+    }
+    #footer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .body {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .stick,
+    .ball,
+    .pendulum-1,
+    hr {
+      display: none;
+    }
+    .intro {
+      text-align: center;
+    }
+    .menu-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px;
+      height: 42px;
+      width: 42px;
+      border-radius: 50%;
+    }
+    .menu-icon > i {
+      font-size: 22px;
+    }
+    .menu-icon:hover {
+      background-color: rgb(235 239 246 / 6%);
+    }
+  }
+
+  @media only screen and (max-width: 852px){
+    .list-item-link {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45px;
+      }
+      .contact > i {
+        transform: rotate(-37deg);
+        font-size: 11px;
+      }
+  }
+
+  @media only screen and (max-width: 694px){
+    .list-item-link {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 7px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35px;
+      }
+      .contact > i {
+        transform: rotate(-37deg);
+        font-size: 7px;
+      }
+      .contact >.contact-del > h4{
+        display: none;
+      }
+      .contact >.contact-del > h2{
+        font-size: 14px;
+      }
+  }
+
+  @media only screen and (max-width: 594px){
+    .nav-list{
+        flex-direction: column;
+    }
+  }
